@@ -1,0 +1,48 @@
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+}
+
+.header {
+  color: #0e0404;
+  font-size: 24px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.myButton {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.myButton:hover {
+  background-color: #45a049;
+}
+
+.calendarContainer {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bookingFormContainer {
+  flex: 1;
+  margin-left: 10px;
+}

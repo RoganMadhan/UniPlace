@@ -1,0 +1,86 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+}
+
+.navbar-brand a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar-menu {
+  display: flex;
+}
+
+.navbar-item {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar-buttons {
+  display: flex;
+}
+
+.button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.pageContainer {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tableContainer {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: auto; /* Add scrollbars if needed */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
