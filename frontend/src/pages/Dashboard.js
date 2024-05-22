@@ -22,12 +22,10 @@ function Dashboard() {
         {/* Link to navigate to the rooms page */}
         <Link to="/rooms" className="card">
           <h2>Room/Desk</h2>
-          <p>4 available rooms/desks</p>
         </Link>
-        <div className="card">
+        <Link to="/bookings" className="card">
           <h2>All Reservations</h2>
-          <p>8 reservations</p>
-        </div>
+        </Link>
       </div>
     </div>
   );

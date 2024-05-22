@@ -18,3 +18,14 @@
   cursor: pointer;
   background-color: rgb(188, 221, 241);
 }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust this value to center vertically */
+  text-align: center; /* Center text horizontally */
+}
+
+h1 {
+  font-weight: bold;
+}

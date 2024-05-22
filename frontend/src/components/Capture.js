@@ -12,7 +12,7 @@ function Dashboard() {
         const data = { inputValue }; // Prepare the data as an object
 
         try {
-            const response = await fetch('http://localhost:5000/submit', { // Adjust the URL to your Flask endpoint
+            const response = await fetch('http://localhost:3000/submit', { // Adjust the URL to your Flask endpoint
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
